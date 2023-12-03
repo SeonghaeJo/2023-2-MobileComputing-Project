@@ -25,3 +25,6 @@ docker run -it -p 8123:8123 --name decoder_server tensorflow-decoder-server
 ```shell
 python controller.py
 ```
+
+4. Modify the server IP address in the Android code according to your server IP.
+Modify IP address in `app/src/main/java/com/mobilecomputing/mobilecomputingproject/QuizActivity.kt`.

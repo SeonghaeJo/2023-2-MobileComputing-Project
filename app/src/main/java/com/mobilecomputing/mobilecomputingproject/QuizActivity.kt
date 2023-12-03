@@ -111,7 +111,7 @@ class QuizActivity : AppCompatActivity() {
         val requestBody = jsonData.toRequestBody("application/json; charset=utf-8".toMediaTypeOrNull())
 
         val request = Request.Builder()
-            .url("http://192.168.0.6:8123/decode") // Local IP address
+            .url("http://192.168.0.6:8123/decode") // Modify this IP address if necessary
             .post(requestBody)
             .build()
 
