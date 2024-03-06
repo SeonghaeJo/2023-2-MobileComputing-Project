@@ -1,5 +1,8 @@
 # Image Description for Dementia Prevention
-Project of 'Mobile Computing and Its Applications' in SNU
+Project of 'Mobile Computing and Its Applications' in SNU.
+
+## Project Description
+Please refer to `mobileComputing_2023_project_final_presentation.pdf`
 
 ## Prepare tensorflow lite model
 Contents of `image_captioning_custom.ipynb`
